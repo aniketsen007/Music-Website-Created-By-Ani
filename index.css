@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    height:100vw;
+    width:100vw;
+    background-image: url(/headphone.jpg) ;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+}
+.navbar{
+    width:88%;
+    margin:auto;
+    padding: 15px 0;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+#logo{
+    width:10vw;
+    cursor:pointer;
+    border-radius: 60%;
+}
+
+.navbar ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:rgb(255, 0, 0);
+    font-size:22px;
+}
+
+.content{
+    width:100%;
+    position:absolute;
+    top:30%;
+    color:rgb(255, 0, 0);
+}
+.left-col{
+    margin-left:6%;
+}
+
+.left-col h1{
+    font-size:90px;
+    line-height: 110px;
+}
+
+.right-col{
+    float:right;
+    margin-right:6%;
+    margin-top:-600px;
+    display:flex;
+}
+
+.right-col p{
+    font-size:18px;
+    color:rgb(255, 0, 0);
+    font-weight:400;
+    cursor:pointer;
+}
+#change{
+    width:55px;
+    height:52px;
+    border-radius: 30%;
+    display:flex;
+    justify-content: center;
+    float:left;
+    align-items: center;
+    cursor:pointer;
+    
+    margin-top:20px;
+    margin-right:100px;
+
+}
